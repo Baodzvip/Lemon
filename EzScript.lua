@@ -69,13 +69,13 @@ do
         Title = "Click",
         Description = "Click Sẽ Có Bất Ngờ!",
         Callback = function()
-                game.Players.LocalPlayer:Kick("THẰNG NGU BỊ DỤ LÊU LÊU")
+                game.Players.LocalPlayer:Kick("Update!")
             end 
         })
 
-    local Toggle = Tabs.Main:AddToggle("Toggle", {Title = "Dupe Op", Default = false })
+    local Toggle = Tabs.Main:AddToggle("Toggle", {Title = "Test", Default = false })
     toggleButton.Changed:Connect(function()
-         game.Players.LocalPlayer:Kick("ĐÃ DUPE THÀNH CÔNG!")
+         game.Players.LocalPlayer:Kick("Update!")
 end)
 
     
